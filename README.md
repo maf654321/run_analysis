@@ -1,9 +1,10 @@
 # Getting and Cleaning Data
-## Course Project
+## Course Project - README
 
 In this repository is the R function [run_analysis.R](run_analysis.R) and related files I made for the Getting and Cleaning Data Course Project. Code and output can be found in:
 
 - [run_analysis.R](run_analysis.R)
+- [run_analysis.R Code Book](CODEBOOK.md)
 - [tidy_data_1.txt](tidy_data_1.txt)
 - [tidy_data_2.txt](tidy_data_2.txt)
 

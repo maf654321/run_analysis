@@ -4,6 +4,11 @@ run_analysis <- function(export = TRUE, returned = 2, directory = ".", file = "g
 # Find zip file path
 file <- list.files(path = directory, pattern = file, full.names = TRUE, recursive = TRUE)[1]
 
+# Returns error if "getdata-projectfiles-UCI HAR Dataset.zip" not found
+if (anyNA(file)) {
+        stop("UCI HAR Dataset not found")
+}
+
 # Create file list
 file_list <- unzip(file, list = TRUE)[c(31, 17, 30, 16, 32, 18, 2, 1), 1]
 
