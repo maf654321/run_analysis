@@ -7,15 +7,15 @@ In this repository is the R function [run_analysis.R](run_analysis.R) and relate
 - [tidy_data_1.txt](tidy_data_1.txt)
 - [tidy_data_2.txt](tidy_data_2.txt)
 
-In use [run_analysis.R](run_analysis.R), take these steps:
+To use [run_analysis.R](run_analysis.R), take these steps:
 
-- Download [getdata-projectfiles-UCI HAR Dataset.zip](UCI HAR Dataset), mirrored here on 6/21/15 in this repository from [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip] (this website).
-- Place downloaded .zip file "getdata-projectfiles-UCI HAR Dataset.zip" within any folder/subfolder in working directory.
+- Download [UCI HAR Dataset](getdata-projectfiles-UCI HAR Dataset.zip), mirrored here on 6/21/15 in this repository from [this website] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+- Place downloaded .zip file **"getdata-projectfiles-UCI HAR Dataset.zip"** within any folder/subfolder in current working directory.
 - Download and source in R [run_analysis.R](run_analysis.R).
-- Run the function ```{r} run_analysis() ``` in the R console
-- By default, the ```{r} run_analysis() ``` function will export two tidy datasets "tidy_data_1.txt" and "tidy_data_2.txt" two the working directory as well as caching the two tidy datasets as R objects in the global environment.
+- Run the function `run_analysis()` in the R console
+- By default, the `run_analysis()` function will export two tidy datasets **"tidy_data_1.txt"** and **"tidy_data_2.txt"** two the working directory as well as caching the two tidy datasets as R objects in the global environment.
 
-#### run_analysis.R
+#### [run_analysis.R](run_analysis.R)
 
 ```{r}
 
