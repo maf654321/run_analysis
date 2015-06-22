@@ -19,7 +19,6 @@ To use [run_analysis.R](run_analysis.R), take these steps:
 #### [run_analysis.R](run_analysis.R)
 
 ```{r}
-
 run_analysis <- function(export = TRUE, returned = 2, directory = ".", file = "getdata-projectfiles-UCI HAR Dataset.zip") {
 # UCI HAR Dataset zip file must be in folder/subfolder of working directory
         
@@ -104,7 +103,6 @@ if (any(export)) {
         return(result)
 }
 }
-
 ```
 
 
